@@ -1,0 +1,42 @@
+<section class="blk-duo" id="ultraformer">
+  <div class="wrap blk-duo__grid">
+    <div class="blk-duo__foto" data-reveal data-parallax><!--foto:midia/aline-ultraformer.jpg|Aline de Zorzi na sala da clínica, entre os dois aparelhos Ultraformer--></div>
+    <div class="blk-duo__texto">
+      <p class="blk-duo__eyebrow" data-reveal>Dois aparelhos na mesma sala</p>
+      <h2 class="blk-duo__titulo" data-reveal>Ultraformer III ou MPT? Quem escolhe é a sua pele.</h2>
+      <p class="blk-duo__lead" data-acende>Na D'Zorzi as duas versões ficam lado a lado, e a escolha acontece na avaliação, olhando o grau de flacidez, a região e quanto desconforto você topa.</p>
+      <div class="blk-duo__cartoes" data-pilha>
+        <article class="blk-duo__cartao" data-reveal style="--d:0ms">
+          <span class="blk-duo__icone"><!--icone:ultrassom--></span>
+          <h3>Ultraformer III</h3>
+          <p>Para quem quer efeito lifting e tratar flacidez já instalada, no rosto, na papada ou no corpo.</p>
+        </article>
+        <article class="blk-duo__cartao" data-reveal style="--d:120ms">
+          <span class="blk-duo__icone"><!--icone:molecula--></span>
+          <h3>Ultraformer MPT</h3>
+          <p>Mais disparos e menos desconforto. Alcança áreas delicadas, como a volta dos olhos e da boca.</p>
+        </article>
+      </div>
+      <p class="blk-duo__nota" data-reveal>Nos dois, você sai da sessão e volta para a rotina no mesmo dia.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-duo{padding-block:var(--sp-section)}
+.blk-duo__grid{display:grid;gap:var(--sp-5)}
+.blk-duo__foto{aspect-ratio:4/5;overflow:hidden;border-radius:var(--radius);background:color-mix(in srgb,var(--brand) 10%,var(--bg));max-width:30rem}
+.blk-duo__foto img{width:100%;height:100%;object-fit:cover;display:block}
+.blk-duo__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-duo__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-duo__lead{margin:var(--sp-3) 0 var(--sp-4);font-size:1.1rem;line-height:1.65;color:var(--ink);max-width:36rem}
+.blk-duo__cartoes{display:grid;gap:var(--sp-3)}
+.blk-duo__cartao{padding:var(--sp-4);border:1px solid color-mix(in srgb,var(--brand) 30%,transparent);border-radius:var(--radius);background:color-mix(in srgb,var(--brand) 5%,var(--bg))}
+.blk-duo__icone{display:inline-flex;width:2.6rem;height:2.6rem;color:var(--brand)}
+.blk-duo__icone svg{width:100%;height:100%}
+.blk-duo__cartao h3{margin:var(--sp-2) 0 .4rem;font-family:var(--f-display);font-size:1.3rem;font-weight:500;color:var(--ink)}
+.blk-duo__cartao p{margin:0;font-size:.98rem;line-height:1.55;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-duo__nota{margin:var(--sp-4) 0 0;font-size:.95rem;color:color-mix(in srgb,var(--ink) 70%,transparent)}
+@media (min-width:640px){.blk-duo__cartoes{grid-template-columns:1fr 1fr}}
+@media (min-width:1000px){.blk-duo__grid{grid-template-columns:5fr 7fr;align-items:center;gap:var(--sp-6)}.blk-duo__foto{max-width:none}}
+</style>

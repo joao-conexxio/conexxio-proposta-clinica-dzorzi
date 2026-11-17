@@ -1,0 +1,30 @@
+<section class="blk-linha" id="historia">
+  <div class="wrap">
+    <p class="blk-linha__eyebrow" data-reveal>A casa da Aline</p>
+    <h2 class="blk-linha__titulo" data-reveal>Desde <span data-count="2009">2009</span> em Balneário Camboriú</h2>
+    <p class="blk-linha__lead" data-acende>A clínica nasceu um ano depois da formatura da Aline de Zorzi em Fisioterapia. De lá para cá, ganhou aparelhos, protocolos e pacientes que voltam há anos.</p>
+    <!--motivo:rule-->
+    <ol class="blk-linha__lista">
+      <li data-reveal style="--d:0ms"><span class="blk-linha__ano">2008</span><p>Aline se forma em Fisioterapia e segue para a pós em Dermato-Funcional.</p></li>
+      <li data-reveal style="--d:100ms"><span class="blk-linha__ano">2009</span><p>Abre a Clínica D'Zorzi em Balneário Camboriú.</p></li>
+      <li data-reveal style="--d:200ms"><span class="blk-linha__ano">2010</span><p>Entra para a Sociedade Internacional de Estética.</p></li>
+      <li data-reveal style="--d:300ms"><span class="blk-linha__ano">Hoje</span><p>Ultraformer III e MPT, Laser Lavieen, medicina regenerativa e uma médica nutróloga na equipe. A Aline também orienta outras profissionais da área.</p></li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-linha{padding-block:var(--sp-section)}
+.blk-linha__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-linha__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-linha__lead{margin:var(--sp-3) 0 var(--sp-4);font-size:1.1rem;line-height:1.65;color:var(--ink);max-width:40rem}
+.blk-linha__lista{list-style:none;margin:var(--sp-4) 0 0;padding:0 0 0 var(--sp-3);border-left:1px solid color-mix(in srgb,var(--brand) 45%,transparent);display:grid;gap:var(--sp-4)}
+.blk-linha__lista li{position:relative}
+.blk-linha__lista li::before{content:"";position:absolute;left:calc(-1 * var(--sp-3) - 5px);top:.55rem;width:9px;height:9px;border-radius:50%;background:var(--brand)}
+.blk-linha__ano{display:block;font-family:var(--f-display);font-size:1.6rem;color:var(--brand);line-height:1.1}
+.blk-linha__lista p{margin:.35rem 0 0;font-size:1rem;line-height:1.55;color:color-mix(in srgb,var(--ink) 80%,transparent);max-width:34rem}
+@media (min-width:900px){
+  .blk-linha__lista{grid-template-columns:repeat(4,1fr);border-left:0;border-top:1px solid color-mix(in srgb,var(--brand) 45%,transparent);padding:var(--sp-4) 0 0;gap:var(--sp-4)}
+  .blk-linha__lista li::before{left:0;top:calc(-1 * var(--sp-4) - 5px)}
+}
+</style>

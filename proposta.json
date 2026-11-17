@@ -1,0 +1,333 @@
+{
+  "slug": "clinica-dzorzi",
+  "marca": {
+    "brand": "#8A6F1C",
+    "brand2": "#AB8D29",
+    "ink": "#1A1A1A",
+    "bg": "#FFFDF9",
+    "pulse": "#C9AE5D",
+    "radius": "6px",
+    "fontDisplay": "Cinzel",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro",
+    "registro": "editorial"
+  },
+  "negocio": {
+    "nome": "Clínica D'Zorzi Estética & Saúde",
+    "logo": "brand/logo.png",
+    "whatsapp": "5547997092987",
+    "telefone": "(47) 99709-2987",
+    "cidade": "Balneário Camboriú - SC",
+    "funcionamento": {
+      "seg": "09:00-18:00",
+      "ter": "09:00-18:00",
+      "qua": "09:00-18:00",
+      "qui": "09:00-18:00",
+      "sex": "09:00-18:00",
+      "sab": null,
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Centro · Balneário Camboriú",
+        "endereco": "Edifício Royalton, R. 916, 199, sala 08 · Centro, Balneário Camboriú - SC, 88330-610",
+        "telefone": "(47) 99709-2987",
+        "horario": "Segunda a sexta, das 9h às 18h"
+      }
+    ]
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Ultraformer",
+            "href": "#ultraformer"
+          },
+          {
+            "texto": "História",
+            "href": "#historia"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética & Saúde · BC",
+        "h1": "Envelhecer bem, um plano de cada vez.",
+        "lead": "Em Balneário Camboriú desde 2009, a Clínica D'Zorzi monta protocolos faciais e corporais por etapas: Ultraformer, laser, bioestimuladores e injetáveis, sempre depois de uma avaliação.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/aline.jpg",
+        "imagemAlt": "Aline de Zorzi, fundadora da clínica, sentada na sala de espera",
+        "tarja": [
+          "Desde 2009 em Balneário Camboriú",
+          "Nota 5,0 com 218 avaliações",
+          "Ultraformer III e MPT na casa",
+          "Laser Lavieen",
+          "Médica nutróloga na equipe"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Ultraformer",
+          "Toxina botulínica",
+          "Bioestimuladores",
+          "Harmonização facial",
+          "Laser Lavieen",
+          "Exossomos e PDRN",
+          "Peeling coreano",
+          "Harmonização de glúteos"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Como a gente pensa",
+        "citacao": "Envelhecer é natural. Envelhecer bem dá para planejar.",
+        "autor": "Aline de Zorzi, fundadora",
+        "texto": [
+          "Primeiro a avaliação, depois o plano.",
+          "Cada fase pede uma coisa, sem exagero."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que a clínica faz",
+        "lead": "Rosto e corpo, do preventivo aos 30 ao cuidado de quem quer devolver firmeza.",
+        "itens": [
+          {
+            "nome": "Gerenciamento do envelhecimento",
+            "descricao": "Um protocolo de longo prazo que combina tecnologias e injetáveis para manter firmeza, viço e linhas suaves ao longo dos anos.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as rugas de expressão da testa, da glabela e da volta dos olhos e ajuda a prevenir as novas. Aplicação rápida, aspecto descansado.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Bioestimuladores de colágeno",
+            "descricao": "A partir dos 30, o corpo produz menos colágeno. O bioestimulador reativa essa produção e a pele volta a ganhar firmeza aos poucos.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Harmonização e preenchedores",
+            "descricao": "Proporção, volume e contorno trabalhados de forma personalizada, respeitando os traços de cada rosto.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Medicina regenerativa: exossomos e PDRN",
+            "descricao": "Estimula a regeneração das células. Indicada para cicatriz de acne, rosácea, flacidez e queda de cabelo.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Acne e peeling coreano",
+            "descricao": "Tratamento de acne pensado para cada pele, e o peeling coreano para poros, textura e aquele efeito de pele de porcelana.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Harmonização de glúteos",
+            "descricao": "O protocolo próprio da casa para volume, contorno, celulite, flacidez e o “buraco do culote”.",
+            "icone": "mulher"
+          },
+          {
+            "nome": "Nutrologia e terapia injetável",
+            "descricao": "Uma médica nutróloga cuida de peso, energia, sono e intestino, com protocolos injetáveis que somam ao resultado estético.",
+            "icone": "nutricao"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/ultraformer-duplo.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "A clínica em números",
+        "itens": [
+          {
+            "valor": "2009",
+            "rotulo": "ano em que a clínica abriu em BC",
+            "contar": 2009
+          },
+          {
+            "valor": "5,0",
+            "rotulo": "nota média no Google"
+          },
+          {
+            "valor": "218",
+            "rotulo": "avaliações de pacientes",
+            "contar": 218
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Antes da primeira consulta",
+        "titulo": "A dúvida mais comum chega pelo WhatsApp",
+        "lead": "Quem pesquisou Ultraformer quase sempre pergunta a mesma coisa. A resposta curta já ajuda a marcar.",
+        "cta": "Tirar minha dúvida",
+        "contato": "Clínica D'Zorzi",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Vi que vocês têm Ultraformer III e MPT. Qual eu faço pra papada?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Depende do quanto de flacidez tem e de como você lida com desconforto."
+          },
+          {
+            "de": "clinica",
+            "texto": "Na avaliação a Aline olha de perto e indica o melhor. Nos dois você volta pra rotina no mesmo dia."
+          },
+          {
+            "de": "paciente",
+            "texto": "Perfeito. Tem horário essa semana?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Tem sim! Prefere manhã ou tarde?"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/desde-2009.html"
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro oi ao plano pronto",
+        "itens": [
+          {
+            "titulo": "Conversa no WhatsApp",
+            "texto": "Você conta o que incomoda e a recepção encontra um horário para a avaliação.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação na clínica",
+            "texto": "Pele, rosto e objetivos olhados de perto, sem pressa e sem procedimento empurrado.",
+            "icone": "rosto"
+          },
+          {
+            "titulo": "Plano por etapas",
+            "texto": "O que fazer agora, o que fica para depois e quando cada coisa faz sentido.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Acompanhamento",
+            "texto": "Cada etapa tem seu tempo de reavaliação, combinado desde o começo.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem frequenta, conta",
+        "itens": [
+          {
+            "texto": "Frequento a clínica há mais de cinco anos. O último procedimento foi o Ultraformer e fiquei muito satisfeita com o resultado.",
+            "autor": "Daniela G.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "São bem organizados, fazem ótimos procedimentos e são bem queridos.",
+            "autor": "Rafaella P.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Atendimento ótimo, com profissional super querida e qualificada.",
+            "autor": "Letícia S.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas que chegam toda semana",
+        "itens": [
+          {
+            "p": "O Ultraformer tem tempo de recuperação?",
+            "r": "Não precisa. É um ultrassom focado, sem corte, e você volta para a rotina no mesmo dia."
+          },
+          {
+            "p": "Qual a diferença entre o Ultraformer III e o MPT?",
+            "r": "O III é indicado para efeito lifting e flacidez. O MPT dá mais disparos com menos desconforto e alcança melhor áreas delicadas. A indicação sai na avaliação."
+          },
+          {
+            "p": "Com que idade faz sentido começar o bioestimulador?",
+            "r": "A queda na produção de colágeno se acentua a partir dos 30. Na avaliação, a gente vê se é o momento para você."
+          },
+          {
+            "p": "Vocês tratam corpo também?",
+            "r": "Sim. Tem protocolo próprio para glúteos, tratamentos para flacidez e gordura localizada, e Ultraformer corporal para braços, coxas e abdômen."
+          },
+          {
+            "p": "Onde fica a clínica?",
+            "r": "No Edifício Royalton, Rua 916, 199, sala 08, no Centro de Balneário Camboriú."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "vivo",
+      "data": {
+        "h2": "Comece pela avaliação.",
+        "lead": "Conte pelo WhatsApp o que você quer cuidar. A recepção responde e já sugere um horário.",
+        "cta": "Falar com a clínica"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Resultados variam de paciente para paciente. Procedimentos indicados após avaliação."
+      }
+    }
+  ]
+}
